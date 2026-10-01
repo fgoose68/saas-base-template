@@ -30,7 +30,7 @@ def home():
 
     <body>
     <h1>{msg}</h1>
-    <p>Portale digitale {client} - TEST di aggiornamento con GitHub-Prova seconda!!!!</p>
+    <p>Portale digitale {client} - GitHub-Prova finale!!!!</p>
     </body>
 
     </html>
