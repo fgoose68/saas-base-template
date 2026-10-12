@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     msg = os.getenv(
         "WELCOME_MSG",
-        "Benvenuto nel portale SaaS"
+        "Benvenuto nel portale SaaS_ di prova testo :-)))"
     )
 
     client = os.getenv(
@@ -30,7 +30,7 @@ def home():
 
     <body>
     <h1>{msg}</h1>
-    <p>Portale digitale {client} - GitHub-Prova finale !!!!</p>
+    <p>Portale digitale {client} - GitHub-Prova finale con aggiornamwento!!!!</p>
     </body>
 
     </html>
